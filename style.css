@@ -1,0 +1,27 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Добавлено для центрирования по горизонтали */
+}
+
+/* Дополнительные стили для элементов внутри .main */
+.main > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.main img {
+    width: 200px;
+    height: 200px;
+}
+
+.main button {
+    margin-top: 10px;
+    width: 150px;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px solid green;
+}
